@@ -4,17 +4,17 @@
 
 export const environment = {
   production: false,
-  firebaseConfig: {
-    apiKey: "AIzaSyC2frVRAAltsVTmdwgFnATGHoVUzNHfzsM",
-    authDomain: "live-resume-a575a.firebaseapp.com",
-    databaseURL: "https://live-resume-a575a.firebaseio.com",
-    projectId: "live-resume-a575a",
-    storageBucket: "live-resume-a575a.appspot.com",
-    messagingSenderId: "681076751855",
-    appId: "1:681076751855:web:18bae3866ebfcc4fcd8a1a",
-    measurementId: "G-00VXD77WNG"
+  firebaseConfig : {
+    apiKey: "AIzaSyDLJIdrtSdGP20dYS_v7f7_N4-RCwLIDdE",
+    authDomain: "live-resume-37532.firebaseapp.com",
+    databaseURL: "https://live-resume-37532-default-rtdb.firebaseio.com",
+    projectId: "live-resume-37532",
+    storageBucket: "live-resume-37532.appspot.com",
+    messagingSenderId: "746551919490",
+    appId: "1:746551919490:web:8f859a2c5450d199de459b"
   }
 };
+
 
 /*
  * For easier debugging in development mode, you can import the following file

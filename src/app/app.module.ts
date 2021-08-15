@@ -10,6 +10,7 @@ import { PageNotFoundModule } from "./404/page-not-found.module";
 import { CoreModule } from "./core/core.module";
 
 import localeEn from "@angular/common/locales/en";
+import localeEnExtra from "@angular/common/locales/extra/en";
 import localePt from "@angular/common/locales/pt";
 import localePtExtra from "@angular/common/locales/extra/pt";
 
@@ -18,8 +19,8 @@ import { AngularFireDatabaseModule } from "@angular/fire/database";
 import { AngularFireAnalyticsModule } from "@angular/fire/analytics";
 import { environment } from "../environments/environment";
 
-registerLocaleData(localeEn, "en");
-registerLocaleData(localePt, "pt-BR", localePtExtra);
+registerLocaleData(localeEn, "en", localeEnExtra);
+// registerLocaleData(localePt, "pt-BR", localePtExtra);
 @NgModule({
   imports: [ 
     BrowserModule,
